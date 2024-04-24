@@ -33,17 +33,17 @@ python -m http.server
 ```
 This will start a server on your localhost, typically on port 8000.
 
-5. Open your web browser and access the main page of the project by navigating to:
+4. Open your web browser and access the main page of the project by navigating to:
 localhost:8000/mainpage.html
 
-6. Navigate to the `Disease_Recognition` folder in the project directory and run the Python script `model.py`.
+5. Navigate to the `Disease_Recognition` folder in the project directory and run the Python script `model.py`.
 ```
 python model.py
 ```
 
-8. Next, navigate to the `Medicine_Recommendation` folder in the project directory and run the Python script `medicine_recommend_model.py`.
+6. Next, navigate to the `Medicine_Recommendation` folder in the project directory and run the Python script `medicine_recommend_model.py`.
 ```
 python medicine_recommend_model.py
 ```
 
-10. You are now ready to use all three components of the project from `localhost:8000/mainpage.html`.
+7. You are now ready to use all three components of the project from `localhost:8000/mainpage.html`.

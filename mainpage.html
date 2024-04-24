@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Medical Assistant</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .background {
+            background-image: url('images/background_img.svg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 100%;
+        }
+
+        .background::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            color: #fff;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #title {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 80px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .button img {
+            vertical-align: middle;
+            margin-right: 10px;
+            width: 60px;
+
+        }
+
+        .button-text {
+            vertical-align: middle;
+            font-size: 25px;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .image {
+            margin-top: 20px;
+        }
+
+        #About {
+            font-size: 20px;
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="content">
+            <div id="title">AI Medical Assistant</div>
+            <div id="About"><B>We offer a comprehensive solution designed to enhance healthcare outcomes. Our model
+                    utilizes advanced machine learning algorithms to recommend the most appropriate medication based on
+                    the patient's symptoms and conditions. These recommendations are further optimized by considering
+                    the ratings of medication manufacturers. Our system accurately predicts potential diseases by
+                    analyzing user-input symptoms, providing personalized medication, workout, and diet plans.
+                    Additionally, our AI chatbot assists users in finding the best doctors nearby, ensuring access to
+                    quality healthcare services.</B></div>
+            <div class="section">
+                <a href="#" class="button" onclick="diseaseRecognition()">
+                    <img src="images/disease.jpg" alt="Disease Icon">
+                    <span class="button-text">Know your disease</span>
+                </a>
+                <a href="#" class="button" id="MedicineButton" onclick="MedicineRecommendation()">
+                    <img src="images/medicine.jpg" alt="Medicine Icon">
+                    <span class="button-text">Choose the medicine</span>
+                </a>
+                <a href="#" class="button">
+                    <img src="images/chatbot.jpg" alt="Chatbot Icon">
+                    <span class="button-text">AI chatbot to recommend doctors</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <script src="navigation.js"></script>
+</body>
+
+</html>

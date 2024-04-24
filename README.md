@@ -47,3 +47,6 @@ python medicine_recommend_model.py
 ```
 
 7. You are now ready to use all three components of the project from `localhost:8000/mainpage.html`.
+
+   ## Video Link
+   [AI Medical assistant working Link](https://vimeo.com/938622700?share=copy)

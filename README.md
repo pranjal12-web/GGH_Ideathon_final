@@ -28,16 +28,22 @@ To run the project locally, follow these steps:
 2. Open a terminal or command prompt and navigate to the directory where you have cloned the git repository.
 
 3. Start a local HTTP server by running the following command:
-```python -m http.server```
+```
+python -m http.server
+```
 This will start a server on your localhost, typically on port 8000.
 
-4. Open your web browser and access the main page of the project by navigating to:
+5. Open your web browser and access the main page of the project by navigating to:
 localhost:8000/mainpage.html
 
-5. Navigate to the `Disease_Recognition` folder in the project directory and run the Python script `model.py`.
-```python model.py```
+6. Navigate to the `Disease_Recognition` folder in the project directory and run the Python script `model.py`.
+```
+python model.py
+```
 
-6. Next, navigate to the `Medicine_Recommendation` folder in the project directory and run the Python script `medicine_recommend_model.py`.
-```python medicine_recommend_model.py```
+8. Next, navigate to the `Medicine_Recommendation` folder in the project directory and run the Python script `medicine_recommend_model.py`.
+```
+python medicine_recommend_model.py
+```
 
-7. You are now ready to use all three components of the project from `localhost:8000/mainpage.html`.
+10. You are now ready to use all three components of the project from `localhost:8000/mainpage.html`.

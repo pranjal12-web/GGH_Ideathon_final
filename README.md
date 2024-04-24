@@ -1,6 +1,6 @@
 # AI Medical Assistant
 
-Our healthcare recommendation system is designed to streamline the healthcare journey for individuals, offering them convenience, accuracy, and peace of mind in managing their health needs. Whether someone is seeking a specialist, a diagnosis, or medication advice, our platform aims to be their trusted companion in navigating the complexities of the healthcare landscape.
+My healthcare recommendation system is designed to streamline the healthcare journey for individuals, offering them convenience, accuracy, and peace of mind in managing their health needs. Whether someone is seeking a specialist, a diagnosis, or medication advice, my platform aims to be their trusted companion in navigating the complexities of the healthcare landscape.
 
 ## Key Features
 
@@ -13,11 +13,11 @@ Our healthcare recommendation system is designed to streamline the healthcare jo
 
 ## How It Works
 
-Our system employs advanced machine learning techniques, including Support Vector Classifier (SVC), to accurately predict potential diseases based on user-input symptoms. By analyzing a multitude of algorithms and selecting SVC for its superior performance, we ensure precise disease identification and personalized treatment suggestions. Additionally, our medication recommendation model utilizes Natural Language Processing (NLP) techniques through the NLTK library to analyze symptom descriptions and provide tailored medication suggestions. To further enhance user safety, our model considers medication ratings from reputable sources, guaranteeing the reliability and efficacy of the recommended treatments.
+System employs advanced machine learning techniques, including Support Vector Classifier (SVC), to accurately predict potential diseases based on user-input symptoms. By analyzing a multitude of algorithms and selecting SVC for its superior performance, we ensure precise disease identification and personalized treatment suggestions. Additionally, our medication recommendation model utilizes Natural Language Processing (NLP) techniques through the NLTK library to analyze symptom descriptions and provide tailored medication suggestions. To further enhance user safety, my model considers medication ratings from reputable sources, guaranteeing the reliability and efficacy of the recommended treatments.
 
 ## Summary
 
-In summary, our healthcare recommendation system offers a seamless and comprehensive solution that integrates AI-driven doctor recommendations, accurate disease prediction, and personalized medication suggestions.
+In summary, my healthcare recommendation system offers a seamless and comprehensive solution that integrates AI-driven doctor recommendations, accurate disease prediction, and personalized medication suggestions.
 
 ## Running Locally
 
